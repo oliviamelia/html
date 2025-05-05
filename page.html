@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Connect - User Management</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Tambahkan Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body class="flex h-screen bg-gray-100">
   <!-- Sidebar -->
@@ -12,15 +14,15 @@
     <h1 class="text-2xl font-bold">Connect</h1>
     <nav class="space-y-2">
       <button class="w-full flex items-center space-x-2 text-left bg-black text-white p-2 rounded">
-        <span></span>
+        <i class="fas fa-user"></i>
         <span>User</span>
       </button>
       <button class="w-full flex items-center space-x-2 text-left text-black p-2 hover:bg-gray-100 rounded">
-        <span></span>
+        <i class="fas fa-user-shield"></i>
         <span>Hak Akses</span>
       </button>
       <button class="w-full flex items-center space-x-2 text-left text-black p-2 hover:bg-gray-100 rounded">
-        <span></span>
+        <i class="fas fa-sign-out-alt"></i>
         <span>Logout</span>
       </button>
     </nav>
@@ -31,7 +33,7 @@
     <input type="text" placeholder="Cari user" class="w-full p-2 border rounded mb-4" />
 
     <div class="space-y-4">
-      <!-- User Card -->
+      <!-- User Cards... (tidak diubah) -->
       <div class="bg-white p-4 border rounded shadow-sm flex justify-between items-start">
         <div>
           <h2 class="font-bold">Olivia Amelia</h2>
@@ -79,4 +81,3 @@
   </main>
 </body>
 </html>
-
